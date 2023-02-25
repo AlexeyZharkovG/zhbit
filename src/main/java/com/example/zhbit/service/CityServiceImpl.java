@@ -35,4 +35,5 @@ public class CityServiceImpl implements CityService {
             return daoImp.readAllHousesAndApartmentsByStreetId(street_id);
         }
     }
+
 }
