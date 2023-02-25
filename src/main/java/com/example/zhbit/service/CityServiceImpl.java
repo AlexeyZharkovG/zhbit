@@ -17,7 +17,6 @@ public class CityServiceImpl implements CityService {
         this.daoImp = daoImp;
     }
 
-
     @Override
     public List<CityHousesDTO> readAllCityAndHouses() {
         return daoImp.readAllCityAndHouses();
