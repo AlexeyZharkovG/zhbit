@@ -40,4 +40,12 @@ public class City {
     public void setName(String name) {
         this.name = name;
     }
+
+    public List<Street> getStreets() {
+        return streets;
+    }
+
+    public void setStreets(List<Street> streets) {
+        this.streets = streets;
+    }
 }

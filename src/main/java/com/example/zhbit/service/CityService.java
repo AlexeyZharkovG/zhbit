@@ -13,4 +13,6 @@ public interface CityService {
 
     List<HousesApartmensDTO> readAllHousesAndApartments (Long city_id, Long street_id);
 
+    Long getHouseIdByAddress(String address);
+
 }

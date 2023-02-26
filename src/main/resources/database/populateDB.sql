@@ -1,6 +1,6 @@
 INSERT INTO cities VALUES
                         (1, 'Москва'),
-                        (2, 'Санкт-петербург');
+                        (2, 'Санкт-Петербург');
 
 INSERT INTO streets VALUES
                        (1, 'Тверская', 1),

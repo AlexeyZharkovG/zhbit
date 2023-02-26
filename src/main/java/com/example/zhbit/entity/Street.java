@@ -49,4 +49,12 @@ public class Street {
     public void setCity(City city) {
         this.city = city;
     }
+
+    public List<House> getHouses() {
+        return houses;
+    }
+
+    public void setHouses(List<House> houses) {
+        this.houses = houses;
+    }
 }
